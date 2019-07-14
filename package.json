@@ -1,0 +1,27 @@
+{
+  "name": "hello-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.6",
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@zeit/next-stylus": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "stylus": "^0.54.5",
+    "typescript": "^3.5.3"
+  }
+}
