@@ -1,9 +1,12 @@
 import React from 'react'
 
-import '../stylus/styles.styl'
+import '../stylus/index.styl'
+import Layout from './components/Layout'
 
-export default class extends React.Component {
-  render() {
-    return <div className='example'>Hello Next.js</div>
-  }
+export default function() {
+  return (
+    <Layout>
+      <div className='example'>Hello Next.js</div>
+    </Layout>
+  )
 }

@@ -1,0 +1,118 @@
+@import "./_variables.styl";
+// @import "./font.styl";
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font: 1.6rem/2.6rem $base-font-family;
+  background-color: $anti-flash;
+}
+
+h1 {
+  font: 600 4.8rem/6rem $base-font-family;
+  color: $space-cadet;
+  margin: 0 0 2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font: 300 3.4rem/4.2rem $base-font-family;
+  margin: 0 0 2rem;
+}
+
+h3 {
+  font: 400 2.4rem/3.2rem $base-font-family;
+  margin: 0 0 1.5rem;
+}
+
+h4 {
+  font: 600 1.6rem/2.2rem $base-font-family;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem;
+}
+
+p, ul, ol {
+  margin: 0 0 2rem;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+a {
+  color: $green;
+
+  @media screen and (min-width: $desktop) {
+    &:hover, &:focus {
+      color: darken($green, 10%)
+    }
+  }
+
+}
+
+@media screen and (max-width: $tablet) {
+  body {
+    font: 1.5rem/2.4rem $base-font-family;
+  }
+
+  h1 {
+    font: 600 2.8rem/3rem $base-font-family;
+  }
+
+  h2 {
+    font: 300 2.4rem/3.4rem $base-font-family;
+  }
+
+  h3 {
+    font: 400 2.2rem/3rem $base-font-family;
+  }
+
+  h4 {
+    font: 600 1.5rem/2rem $base-font-family;
+  }
+}
+
+@media screen and (max-width: $phone-horizontal) {
+  body {
+    font: 1.4rem/1.9rem $base-font-family;
+  }
+
+  h1 {
+    font: 600 2.4rem/2.6rem $base-font-family;
+  }
+
+  h2 {
+    font: 400 1.8rem/2.2rem $base-font-family;
+  }
+
+  h3 {
+    font: 400 1.6rem/2rem $base-font-family;
+  }
+
+  h4 {
+    font: 600 1.4rem/2rem $base-font-family;
+  }
+}
+
+@media screen and (max-width: $phone-small) {
+  body {
+    font: 1.4rem/1.9rem $base-font-family;
+  }
+
+  h1 {
+    font: 600 2.4rem/2.6rem $base-font-family;
+  }
+
+  h2 {
+    font: 400 1.8rem/2.2rem $base-font-family;
+  }
+
+  h3 {
+    font: 400 1.5rem/1.8rem $base-font-family;
+  }
+
+  h4 {
+    font: 600 1.3rem/1.8rem $base-font-family;
+  }
+}
